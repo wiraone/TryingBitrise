@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    int totalperson = [Car AllCar];
+    NSLog(@"totalperson %d", totalperson);
+
     // Do any additional setup after loading the view.
 }
 
@@ -23,6 +26,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 /*
 #pragma mark - Navigation

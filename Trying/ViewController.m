@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Car.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    Car *carA = [[Car alloc] init];
+    Car *carB = [[Car alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)didtapbutton:(id)sender{
+    [self performSegueWithIdentifier:@"2" sender:self];
 }
 
 - (void)didReceiveMemoryWarning {

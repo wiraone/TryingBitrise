@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
-
+- (id)init;
+- (int)getRoad;
++ (int)AllCar;
 @end
