@@ -24,4 +24,15 @@ static int counter = 0;
 + (int)AllCar{
     return counter;
 }
+
+- (int)match:(Car *)otherCar
+{
+    int score = 0;
+    if ([otherCar.merk isEqualToString:self.merk])
+    {
+        score = 1;
+    }
+    
+    return score;
+}
 @end

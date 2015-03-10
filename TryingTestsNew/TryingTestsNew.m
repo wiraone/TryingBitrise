@@ -1,20 +1,19 @@
 //
-//  TryingTests.m
-//  TryingTests
+//  TryingTestsNew.m
+//  TryingTestsNew
 //
-//  Created by Owl on 2/5/15.
+//  Created by Owl on 3/9/15.
 //  Copyright (c) 2015 Owl. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "Car.h"
 
-@interface TryingTests : XCTestCase
+@interface TryingTestsNew : XCTestCase
 
 @end
 
-@implementation TryingTests
+@implementation TryingTestsNew
 
 - (void)setUp {
     [super setUp];
@@ -28,12 +27,7 @@
 
 - (void)testExample {
     // This is an example of a functional test case.
-    Car *carA = [[Car alloc] init];
-    carA.merk = @"A";
-    Car *carB = [[Car alloc] init];
-    carB.merk = @"A";
-    int matchCount = [carA match:carB];
-    XCTAssertEqual(matchCount, 2, @"Should have matched");
+    XCTAssert(YES, @"Pass");
 }
 
 - (void)testPerformanceExample {

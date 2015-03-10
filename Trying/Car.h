@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Car : NSObject
+@property (nonatomic, weak) NSString *merk;
 - (id)init;
 - (int)getRoad;
 + (int)AllCar;
+- (int)match:(Car *)otherCar;
 @end

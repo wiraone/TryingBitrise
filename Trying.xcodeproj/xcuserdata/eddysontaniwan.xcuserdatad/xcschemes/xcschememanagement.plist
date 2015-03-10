@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Trying.xcscheme_^#shared#^_</key>
+		<key>Trying.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -18,6 +18,21 @@
 			<true/>
 		</dict>
 		<key>1290AA821A8346F3004F1553</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12A5D7301AAD815100A7F29F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12A5D73F1AAD84CD00A7F29F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>12A5D74E1AAD877000A7F29F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
